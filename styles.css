@@ -1,10 +1,13 @@
 body {
-  font-family: sans-serif;
+  font-family: sans-serif;;
+  background-color: darkgrey;
 }
 
 .container {
   margin: auto;
   max-width: 80%;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 #experience {
@@ -29,19 +32,20 @@ h3 {
 }
 
 .exphline {
-  background-color: lightblue;
-  width: 20%;
+  width: 25%;
   height: 100%;
   position: absolute;
   padding: 10px;
+  text-align: center;
+  border-right: 1px solid grey;
 }
 
 .expdetails {
-  margin-left: 20%;
+  margin-left: 26%;
   position : relative;
   padding: 10px;
   height: 100%;
-  background-color: lightgreen;
+  background-color: #DFEDF2;
 }
 
 ul {
@@ -57,4 +61,10 @@ li {
   overflow: hidden;
   position: relative;
   width: 100%;
+  border: 1px solid grey;
+  /*box-shadow: 10px 10px 5px #888888;*/
+}
+
+img {
+  max-width: 90%;
 }
