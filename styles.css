@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;;
+  background-color: darkgrey;
+}
+
+.container {
+  margin: auto;
+  max-width: 80%;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#experience {
+  width: 100%;
+}
+
+td, th {
+  border-bottom: 1px solid #ddd;
+}
+
+.exphead {
+  text-align: left;
+}
+
+h3 {
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.exphline {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid grey;
+}
+
+.expdetails {
+  margin-left: 26%;
+  position : relative;
+  padding: 10px;
+  height: 100%;
+  background-color: #DFEDF2;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  padding: 3px;
+}
+
+.expsection {
+  margin-top: 2px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border: 1px solid grey;
+  /*box-shadow: 10px 10px 5px #888888;*/
+}
+
+img {
+  max-width: 90%;
+}
